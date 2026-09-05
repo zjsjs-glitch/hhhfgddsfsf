@@ -8,7 +8,7 @@ generator client {
 datasource db {
   // For local dev: "sqlite"
   // For Railway / Vercel / Render: "postgresql"
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
