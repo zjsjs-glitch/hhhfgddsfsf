@@ -11,7 +11,7 @@ dist/
 .env.production
 .env.*.local
 
-# Database
+# Database (SQLite dev)
 db/*.db
 db/*.db-journal
 
@@ -27,15 +27,9 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Z.ai scripts (sandbox specific)
-.zscripts/
-mini-services/
+# Prisma
+prisma/migrations/
 
-# Examples (sandbox demos)
-examples/
-
-# Bun
-bun.lock
-
-# Download dir (screenshots from testing)
-download/
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
