@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Environment
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Database
+db/*.db
+db/*.db-journal
+
+# Logs
+dev.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Z.ai scripts (sandbox specific)
+.zscripts/
+mini-services/
+
+# Examples (sandbox demos)
+examples/
+
+# Bun
+bun.lock
+
+# Download dir (screenshots from testing)
+download/
